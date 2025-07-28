@@ -1,0 +1,77 @@
+.card-text {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buy
+{
+  color: white;
+}
+
+.homepage
+{
+  color: white;
+}
+
+img.detail
+{
+  padding-left: 8000px;
+}
+
+p.card-text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.a1 {
+  height: 70px;
+}
+
+hr {
+  margin: 0;
+  height: 2px;
+  background-color: white;
+  border: none;
+  position: relative;
+  top: -20px;
+}
+
+.card-title
+{
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1.5px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+.his {
+  padding-left: 120px;
+  border: none;
+  max-width: fit-content;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+}
+
+.h {
+  height: 700px;
+}
+
+body {
+  background-color: grey;
+}

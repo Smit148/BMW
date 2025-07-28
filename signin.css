@@ -1,0 +1,29 @@
+form.a 
+{
+    padding-left: 120px;
+    gap: 500;
+    border: none;
+    max-width: fit-content;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.b1
+{
+    width: 40%;
+}
+
+input.b1
+{
+    border-radius: 500px;
+}
+
+body
+{
+    background-color: grey;
+}
+label
+{
+    color: white;
+}
