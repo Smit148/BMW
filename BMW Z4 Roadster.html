@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="x.css">
+</head>
+
+<body>
+
+
+  <!-- Navbar Start -->
+  <header class="bg-dark">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg fix bg-dark border-bottom border-body" data-bs-theme="dark">
+        <h1 style="color: white;" class="pr-3 logo"> BMW </h1>
+        <div class="collapse navbar-collapse container" id="navbarNavDropdown">
+        </div>
+
+        <div class="d-flex justify-content-center py-3 ">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link b1" href="#">Models<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link b1" href="#">Electric</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link b1" href="#">Configurator</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Visit Online Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Shop Online</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More BMW
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Financial Services</a></li>
+                <li><a class="dropdown-item" href="#">Digital Services & Apps</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item" href="#">Service & Maintenance</a></li>
+                <li><a class="dropdown-item" href="#">Technology & Innovation</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Navbar End -->
+
+
+  <!-- Cinematic -->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video src="Cinematic 3.mp4" class="d-block w-100" autoplay muted loop></video>
+        <div class="carousel-caption d-none d-md-block">
+          <h5> BMW Z4 Roadster </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+
+  <!-- Exterior -->
+  <div class="card mb-3 his">
+    <div class="row g-0">
+      <div class="col-md-6 card-text bg-dark">
+        <div class="card-body">
+          <h3 class="card-title"> Exterior </h5>
+            <br>
+            <p class="card-text bg-dark">A compact, athletic roadster with a long hood and short rear. Soft-top roof,
+              sharp creases, wide grille, and sculpted sides give it a dynamic, sporty look. Aggressive front fascia and
+              short overhangs enhance agility.</p>
+
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="Exterior 3.png" class="img-fluid rounded-end rounded-start" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <!-- Interior -->
+  <div class="card mb-3 his">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Interior 3.jpg" class="img-fluid rounded-end rounded-start" alt="...">
+      </div>
+      <div class="col-md-6 card-text bg-dark">
+        <div class="card-body">
+          <h3 class="card-title"> Interior </h5>
+
+            <p class="card-text bg-dark">
+            <ul>
+              <li> Sporty seats with optional Vernasca leather </li>
+              <br>
+              <li> Driver-oriented center console </li>
+              <br>
+              <li> 10.25" digital instrument cluster + iDrive system </li>
+              <br>
+              <li>Compact, high-quality layout with clean lines
+                Balances luxury and sport in a roadster form.</li>
+            </ul>
+            </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <footer class="container d-flex justify-content-between">
+    <form action="index.html"><button type="submit" class="btn btn-outline-light bg-dark homepage"> Homepage </button>
+    </form>
+    <button type="submit" class="btn btn-outline-light bg-dark buy" data-bs-toggle="modal" data-bs-target="#BuyModal"> Buy </button>
+  </footer>
+
+    <!-- Modal -->
+  <div class="modal fade" id="BuyModal" tabindex="-1" aria-labelledby="BuyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"> Login: </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <form>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label"> Email: </label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" required>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label"> Password: </label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" required>
+              </div>
+            </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <form action="Thank You.html"><button type="submit" class="btn btn-primary">Save changes</button></form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center"> <a href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg
+            class="bi" width="30" height="24" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24"
+              height="24" aria-hidden="true">
+              <use xlink:href="#instagram"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24"
+              height="24">
+              <use xlink:href="#facebook"></use>
+            </svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
